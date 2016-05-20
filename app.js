@@ -1,7 +1,7 @@
 var static = require('node-static');
 var http = require('http')
 
-var fileServer = new static.Server('./static');
+var fileServer = new static.Server('./static', { indexFile: "home.html" });
 
 http.createServer(function (request, response) {
   console.log(request.url)
