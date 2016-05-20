@@ -1,0 +1,116 @@
+body{
+	background-color: #A9D1AA;
+}
+
+header .row {
+	display: flex;
+	align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+	display: flex;
+	align-items: center;
+	background-image: url("http://2.bp.blogspot.com/-i_jggD_5pDE/Tuv8wC6o0jI/AAAAAAAATmE/64cyDD6gzlI/s1600/DSC_0203.JPG");
+	background-size: cover;
+	background-position:center;
+	text-shadow: -1px -1px 0 #000, 
+	 	        1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+	color: #ffffff;
+	height: 300px;
+
+}
+
+button {
+	border: 5px outset black;
+	border-radius:25px;
+	font-size:40px;
+	font-family: Arial Rounded MT Bold;
+	color:white;
+	text-shadow: -1px -1px 0 #000, 
+	 	        1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+	background-size: cover;
+	background-position: center;
+	width: 200px;
+	height: 200px;
+}
+
+
+#ladybug{
+	background-image: url("http://www.jigzone.com/p/jz/jz4/Ladybug.jpg");
+}
+button:hover{
+	opacity: .7;
+}
+
+
+
+#homelink{
+	text-decoration:none;
+}
+
+#homelink:visited{
+	color:black;
+}
+
+#android{
+	background-image: url(http://cdn.smosh.com/sites/default/files/2014/11/alien-bugs-alien.jpg);
+}
+
+#crash{
+	background-image:url(https://growsoeasyorganic.files.wordpress.com/2015/08/european-hornet.jpg)
+}
+
+#usability{
+	background-image:url("http://miriadna.com/desctopwalls/images/max/Ant.jpg");
+}
+
+#apple{
+	background-image:url("https://i.ytimg.com/vi/pY5ns4pXiK8/maxresdefault.jpg")
+}
+
+#freeze{
+	background-image:url("http://www.britishbugs.org.uk/heteroptera/Pentatomidae/Pentatomidae_images/zicrona_caerulea_1.jpg")
+}
+
+#data{
+	background-image:url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSImp0i8clqCEax9ByqG9ZK3exTNdEYLDIIgwTnuoBcdwE0wydlaw")
+}
+
+#error{
+	background-image:url("http://www.pestworld.org/media/561655/orntlckroch-1f-1.jpg")
+}
+
+#memory{
+	background-image:url("http://kids.nationalgeographic.com/content/dam/kids/photos/animals/Bugs/H-P/monarch-butterfly-grass.jpg.adapt.945.1.jpg")
+}
+
+.panel{
+	width: 600px;
+	margin: auto;
+	border-radius:25px;
+	border: 5px outset black;
+	text-align: center;
+	font-family: Arial Rounded MT Bold;
+
+}
+
+.black{
+	background-color:black;
+}
+#ladybug:focus{
+	background-color: black;
+}
