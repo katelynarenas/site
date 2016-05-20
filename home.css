@@ -100,11 +100,14 @@ button:hover{
 
 .panel{
 	width: 600px;
+	height:70px;
 	margin: auto;
 	border-radius:25px;
 	border: 5px outset black;
 	text-align: center;
 	font-family: Arial Rounded MT Bold;
+	font-size: 20px;
+
 
 }
 
@@ -113,4 +116,5 @@ button:hover{
 }
 #ladybug:focus{
 	background-color: black;
-}
+} 
+
